@@ -1,0 +1,20 @@
+html {
+  font-size: 14px;
+  font: "Open Sans", sans-serif;
+  }
+/* --------------------- Navigation --------------*/
+.nav li {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+#explore {
+  color:#399bd1;
+}
+
+.jumbotron {
+  background-image: url("../images/jumbotron-bike.jpg");
+  background-size: cover;
+  height:50rem;
+
+}

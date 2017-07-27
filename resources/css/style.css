@@ -5,16 +5,10 @@ html {
   font: "Open Sans", sans-serif;
   }
 
-  .container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
 
-/*p,li{
-  font-size: 1.2rem;
-}*/
+.col-md-12,.col-sm-12,.col-sm-4{
+  border:1px red solid;
+}
 
 
 /* --------------------- Navigation --------------*/
@@ -85,7 +79,7 @@ html {
 /*--------------------------------Featured Project ---------------------*/
 
 
-#headline-project{
+.headline-project{
   font-size: 1.7rem;
   color:#399bd1;
   font-weight: bold;
@@ -110,4 +104,13 @@ li {
   font-weight: bold;
   color: #399bd1;
   font-size: 1.3rem;
+}
+/*--------------------------------------PROJECTS--------------------------------*/
+.project-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.project-img img {
+  width:100%;
 }

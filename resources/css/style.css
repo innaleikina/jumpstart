@@ -76,7 +76,7 @@ p {
   align-items: center;
 }
 
-.btn-primary{
+.btn{
   background-color: #399bd1;
   color:white;
   padding-top: 1.3rem;
@@ -105,16 +105,22 @@ p {
 
 
 .headline-project{
-  font-size: 1.7rem;
+  font-size: 1.9rem;
   color:#399bd1;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-#article-title{
+.article-title{
   font-weight: bold;
   font-size: 1.3rem;
 }
+
+@media only screen and (max-width: 1024px){
+  .article-title{
+    margin-top:2rem;
+   }
+  }
 
 p{
   line-height: 2rem;
@@ -148,12 +154,36 @@ li {
   margin-top:1.5rem;
 }
 
+.projects-p {
+  margin-bottom: 5.85rem;
+}
+
 @media only screen and (max-width: 768px){
   .projects-title {
     margin-top:.8rem;
   }
+}
 
-    .projects-p {
-      margin-bottom: 4rem;
-    }
+/*-----------------------------------------FOOTER-------------------------------------*/
+footer {
+  background-color: #f3f3f3;
+  width:100%;
+}
+
+.footer-text {
+  padding-top: 5.2rem;
+}
+
+.btn-xlarge {
+  padding-left:1rem;
+  padding-right: 1rem;
+  color:white;
+
+}
+
+#learn {
+  color: white;
+  padding-left:1rem;
+  padding-right: 1rem;
+    padding-bottom:5.2rem;
 }

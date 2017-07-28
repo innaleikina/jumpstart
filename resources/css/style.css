@@ -165,9 +165,10 @@ li {
 }
 
 /*-----------------------------------------FOOTER-------------------------------------*/
-footer {
+  #footer {
   background-color: #f3f3f3;
-  width:100%;
+    width:100%:
+
 }
 
 .footer-text {
@@ -185,5 +186,10 @@ footer {
   color: white;
   padding-left:1rem;
   padding-right: 1rem;
-    padding-bottom:5.2rem;
 }
+
+/**{
+background: #000 !important;
+color: #0f0 !important;
+outline: solid #f00 1px !important;
+}*/
